@@ -5,6 +5,7 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GoogleMap from "./GoogleMap";
 import Reviews from "./Reviews";
+import "./Contact.css"
 
 export default function Contact() {
     var [info, setInfo] = useState({

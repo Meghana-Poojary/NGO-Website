@@ -1,4 +1,5 @@
 import { useState } from "react";
+import "./Reviews.css";
 
 export default function Reviews(){
     const [reviews, setReviews] = useState([]);
