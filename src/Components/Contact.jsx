@@ -55,9 +55,9 @@ export default function Contact() {
                 </div>
                 <div className="form-content">
                     <form onSubmit={handleSubmit}>
-                        <input id="name" name="name" value={info.name} onChange={handleChange} placeholder="Full Name" autoComplete="off" autoFocus />
-                        <input id="mailid" name="mailId" value={info.mailId} onChange={handleChange} placeholder="Email Id" autoComplete="off" />
-                        <textarea id="content" name="content" value={info.content} onChange={handleChange} placeholder="Message" autoComplete="off" rows={5} />
+                        <input type="text" id="name" name="name" value={info.name} onChange={handleChange} placeholder="Full Name" autoComplete="off" autoFocus />
+                        <input type="text" id="mailid" name="mailId" value={info.mailId} onChange={handleChange} placeholder="Email Id" autoComplete="off" />
+                        <textarea type="text" id="content" name="content" value={info.content} onChange={handleChange} placeholder="Message" autoComplete="off" rows={5} />
                         <button type="submit">Send</button>
                     </form>
                 </div>
